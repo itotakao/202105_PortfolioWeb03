@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stydy Web Site</title>
+    <meta name="description" content="ページの内容を記載" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav id="navigation">
+        <section>
+            <h1>DCIM</h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="movie.html">MOVIE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </section>
+    </nav>
+    <header id="header">
+        <img src="images/index-header.jpeg" alt="">
+    </header>
+    <main id="main">
+        <div class="main-wrap">
+            <form class="contact-form">
+                <p>お客様の情報をご記載下さい。</p>
+                <div class="item">
+                    <label class="label" for="name" name="name">名前</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="item">
+                    <label class="label" for="e-mail">メール</label>
+                    <input id="e-mail" type="email" name="email">
+                </div>
+                <div class="item">
+                    <label class="label" for="message">本文</label>
+                    <textarea rows="4" id="message" placeholder="ご意見をお寄せ下さい。" name="comment"></textarea>
+                </div>
+                <div class="item">
+                    <p class="label">購入理由</p>
+                    <div class="radio-group">
+                        <label><input type="radio" name="source">友達から聞いた</label><br>
+                        <label><input type="radio" name="source">CMを見た</label><br>
+                        <label><input type="radio" name="source">ネット広告を見た</label>
+                    </div>
+                </div>
+                <div class="item no-label">
+                    <label><input type="checkbox" name="magazine">メルマガを希望する</label>
+                </div>
+                <div class="item no-label">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>© All rights reserved by takaoito.</p>
+    </footer>
+</body>
+
+</html>
